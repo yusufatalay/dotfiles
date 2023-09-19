@@ -1,4 +1,4 @@
-theme = "bogster"
+theme = "base16_default"
 
 [editor]
 line-number = "relative"
@@ -7,9 +7,11 @@ true-color = true
 color-modes = true
 auto-save = true
 bufferline = "always"
+cursorcolumn = true
 
 [editor.statusline]
 center = ["version-control"]
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
@@ -27,4 +29,3 @@ snippets = true
 
 [keys.normal]
 D= "kill_to_line_end"
-
