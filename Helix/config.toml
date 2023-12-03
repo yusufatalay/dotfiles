@@ -1,5 +1,4 @@
-theme = "base16_default"
-
+theme = "base16_terminal"
 [editor]
 line-number = "relative"
 mouse = false
@@ -7,7 +6,7 @@ true-color = true
 color-modes = true
 auto-save = true
 bufferline = "always"
-cursorcolumn = true
+#cursorcolumn = true
 
 [editor.statusline]
 center = ["version-control"]
@@ -22,6 +21,9 @@ hidden = true
 
 [editor.soft-wrap]
 enable = true
+
+[editor.smart-tab]
+enable = false
 
 [editor.lsp]
 display-inlay-hints = true
